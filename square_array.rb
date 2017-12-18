@@ -5,3 +5,9 @@ def square_array(array)
     i += 1
   end
 end
+
+#bonus
+
+def square_array(array)
+  newArray = array.collect { |x| x ** 2 }
+end
